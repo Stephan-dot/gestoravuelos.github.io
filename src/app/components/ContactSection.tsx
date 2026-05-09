@@ -32,14 +32,14 @@ export function ContactSection() {
             </div>
 
             {/* Agent Info */}
-            <div className="md:col-span-3 p-8 md:p-12">
+            <div className="md:col-span-3 py-8 px-6 lg:p-12">
               <h3 className="text-2xl md:text-3xl font-bold text-gray-900 mb-2">
                 Hola, soy Damaris Brizuela
               </h3>
               <p className="text-blue-600 font-semibold mb-6">
-                Tu agente de venta de vuelos a Suriname y Guyana
+                Tu agente de vuelos a Suriname y Guyana
               </p>
-              <p className="text-gray-600 mb-8">
+              <p className="text-gray-600 mb-8 text-justify">
                 Con más de 5 años de experiencia ayudando a cubanos a llegar a su destino, te garantizo un servicio honesto y profesional. Te acompaño en todo el proceso para que tu viaje sea un éxito desde el primer paso. ¡Estoy lista para ayudarte con todas tus dudas y gestionar tu boleto con total seguridad!
               </p>
 
