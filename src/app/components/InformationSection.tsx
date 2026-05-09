@@ -4,7 +4,7 @@ const Image = new URL("../../assets/copilot_image_1777662119727.jpeg", import.me
 
 
 export function InformationSection() {
-  const [checked, setChecked]= useState <Record <string |number, boolean>>({}); 
+  const [checked, setChecked]= useState <Record <string,number>>({}); 
   const infoItems = [
     {
       id: 1,
@@ -79,8 +79,8 @@ export function InformationSection() {
                     <div >
                       <div className={checked[item.id]? "flex gap-2" : "flex gap-2 h-full items-center"}>
                         <h3 className="font-semibold text-gray-900">{item.title}</h3>
-                        <input type="checkbox" checked={!!checked[item.id]} className="hidden" id={''+index}/>
-                        <label htmlFor={''+index} onClick={()=> toggle(item.id)}>{checked[item.id]? <ChevronUp/> : <ChevronDown/>}</label>
+                        <input type="checkbox" checked={!!checked[item.id]} onChange={()=> toggle(item.id)} className="hidden" id={''+index}/>
+                        <label htmlFor={''+index} >{checked[item.id]? <ChevronUp/> : <ChevronDown/>}</label>
                       </div>
                       <p className={checked[item.id] ? "text-gray-600 text-sm ": "hidden"}>{item.description}</p>
                     </div>
