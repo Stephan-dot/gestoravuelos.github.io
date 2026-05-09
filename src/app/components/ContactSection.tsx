@@ -32,14 +32,14 @@ export function ContactSection() {
             </div>
 
             {/* Agent Info */}
-            <div className="md:col-span-3 py-8 px-6 lg:p-12">
-              <h3 className="text-2xl md:text-3xl font-bold text-gray-900 mb-2">
+            <div className="md:col-span-3 p-8 lg:p-12">
+              <h3 className=" text-2xl md:text-3xl font-bold text-gray-900 mb-2">
                 Hola, soy Damaris Brizuela
               </h3>
               <p className="text-blue-600 font-semibold mb-6">
                 Tu agente de vuelos a Suriname y Guyana
               </p>
-              <p className="text-gray-600 mb-8 text-justify">
+              <p className="text-gray-600 mb-8 text-justify ">
                 Con más de 5 años de experiencia ayudando a cubanos a llegar a su destino, te garantizo un servicio honesto y profesional. Te acompaño en todo el proceso para que tu viaje sea un éxito desde el primer paso. ¡Estoy lista para ayudarte con todas tus dudas y gestionar tu boleto con total seguridad!
               </p>
 
@@ -49,11 +49,11 @@ export function ContactSection() {
                   <Phone className="w-5 h-5 text-blue-600" />
                   <span>+5352390740 </span>
                 </div>
-                <div className="flex items-center gap-3 text-gray-700">
+                <div className="flex items-center gap-2 text-gray-700 text-sm ">
                   <Mail className="w-5 h-5 text-blue-600" />
                   <span>damarisbrizuelaflyallways@gmail.com</span>
                 </div>
-                <div className="flex items-center gap-3 text-gray-700">
+                <div className="flex items-center gap-2 text-gray-700 text-sm ">
                   <Mail className="w-5 h-5 text-blue-600" />
                   <span>damarisflyallways@gmail.com</span>
                 </div>
